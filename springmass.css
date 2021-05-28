@@ -1,0 +1,27 @@
+#global {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+}
+#playground {
+    height: 95vh;
+    border: dotted black;
+}
+#ctrl {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+#spring {
+    stroke:black;
+    stroke-width: 5;
+}
+#mass {
+    stroke:black;
+    stroke-width: 5;
+    fill: yellow;
+}
+#massInput {
+    /* height: 50px; */
+}
